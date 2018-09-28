@@ -1,0 +1,11 @@
+---
+users:
+  - username: lonst29 
+    visual_studio_code_extensions:
+      - ms-python.python
+      - ms-vscode.Go
+      - PeterJausovec.vscode-docker
+      - DavidAnson.vscode-markdownlint
+      - redhat.vscode-yaml
+      - janjoerke.jenkins-pipeline-linter-connector
+      - jmmeessen.jenkins-declarative-support

@@ -1,0 +1,6 @@
+---
+- src: geerlingguy.homebrew
+- src: geerlingguy.dotfiles
+- src: tvieira.powerline-fonts
+- src: elliotweiser.osx-command-line-tools
+- src: gantsign.visual-studio-code-extensions

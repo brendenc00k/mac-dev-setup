@@ -1,0 +1,5 @@
+---
+dotfiles_repo: 'https://github.com/duhio/dotfiles.git'
+dotfiles_files:
+  - .gitignore_global
+  - .macos

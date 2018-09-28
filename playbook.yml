@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  vars_files:
+    - vars/homebrew.yml
+    - vars/dotfiles.yml
+    - vars/vscode.yml
+    - vars/firefox.yml
+
+  roles:
+  # todo: Firefox addons, prefs, ohmyzsh
+    - geerlingguy.homebrew
+    #- geerlingguy.dotfiles
+    - tvieira.powerline-fonts
+    - gantsign.visual-studio-code-extensions

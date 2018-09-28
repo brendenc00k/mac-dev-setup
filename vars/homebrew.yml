@@ -1,0 +1,67 @@
+---
+homebrew_taps:
+- homebrew/cask
+- cask/homebrew-drivers
+- sidaf/homebrew-pentest
+
+homebrew_installed_packages:
+- aws-cli
+- dark-mode
+- fontconfig
+- git
+- gradle
+- httpie
+- kubernetes-cli
+- kubernetes-helm
+- { name: kubectx, install_opts: 'with-short-names' }
+- lastpass-cli
+- logitech-options
+- maven
+- openssl
+- sl
+- terminal-notifier
+- terraform
+- tree
+- ttygif
+- ttyrec
+- unrar
+- wget
+- zsh
+- { name: coreutils, install_opts: 'with-default-names' }
+- { name: findutils, install_opts: 'with-default-names' }
+- { name: gnu-tar, install_opts: 'with-default-names' }
+- { name: gnu-sed, install_opts: 'with-default-names' }
+- { name: gawk, install_opts: 'with-default-names' }
+- { name: vim, install_opts: 'with-override-system-vi'}
+- watch
+
+homebrew_cask_appdir: /Applications
+
+homebrew_cask_apps:
+- alfred
+- android-studio
+- antigen
+- bartender
+- bitbar
+- chrome
+- docker
+- firefox
+- goland
+- iterm2
+- intellij-idea
+- jetbrains-toolbox
+- lastpass
+- macdown
+- minikube
+- postman
+- plex-media-player
+- pycharm
+- signal
+- slack
+- spotify
+# - steam
+- tomighty
+- tunnelblick
+# - nordvpn
+- virtualbox
+- visual-studio-code
