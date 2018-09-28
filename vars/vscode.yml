@@ -9,3 +9,4 @@ users:
       - redhat.vscode-yaml
       - janjoerke.jenkins-pipeline-linter-connector
       - jmmeessen.jenkins-declarative-support
+      - davidanson.vscode-markdownlint

@@ -5,6 +5,7 @@
     - vars/dotfiles.yml
     - vars/vscode.yml
     - vars/firefox.yml
+    - vars/macdock.yml
 
   roles:
   # todo: Firefox addons, prefs, ohmyzsh
